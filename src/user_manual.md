@@ -21,15 +21,15 @@ Tips： It is recommended to use Google Chrome to log in
 
  Click the account login on the system page, enter the account and password, and click login to log in to the home page of the EUS system.
 
-![User Login](./images/user_login.png)
+![User Login](images/user_login.png)
 
 ## Change Passworod
 
 To change the password, you need to enter the Kujiale homepage（https://www.kujiale.com/）, And then click the person’s avatar in the upper right corner of the system page, click Account Settings in the personal information pop-up window, click Account Security in the account settings page, and then click [Modify Password] in the Security Information Module. In the Modify Password pop-up window, enter the original password And the new password, the new password format requirements: ①The length is 8-16 characters; ②Cannot use spaces; ③Contain at least two combinations of numbers/letters/characters; ④Cannot contain illegal characters.。
 
-![User Center](./images/user_center.png)
-![Security Information](./images/security_information.png)
-![Password Change](./images/password_change.png)
+![User Center](images/user_center.png)
+![Security Information](images/security_information.png)
+![Password Change](images/password_change.png)
 
 ## Scene management
 
@@ -45,7 +45,7 @@ After successful login, you will enter the EUS homepage-Scene Management.
 
 5. Check the eligible scenes, or click Export to import the scenes to RW (RoboWizard product needs to be activated first. If it is not activated, the export button will be hidden and invisible. The full name of RW product is based on cloud native robot cloud development and simulation solution. Program, detailed introduction can be obtained by contacting the business)
 
-![Manage Scene](./images/manage_scene.png)
+![Manage Scene](images/manage_scene.png)
 
 ## Create simulation task
 
@@ -63,8 +63,8 @@ After checking the scene that meets the requirements, you can create a simulatio
 
 6. After completing the configuration, click OK to create a task, and automatically jump to task management.
 
-![Create Task](./images/create_task.png)
-![DSL Upload](./images/dsl_upload.png)
+![Create Task](images/create_task.png)
+![DSL Upload](images/dsl_upload.png)
 
 ## DSL description
 
@@ -100,7 +100,7 @@ This module displays the status of simulation tasks, and provides task query, sc
 
 6. After the task is successful, the result data will be stored in the cloud for 14 days and needs to be downloaded in time
 
-![Render Task](./images/render_task.png)
+![Render Task](images/render_task.png)
 
 ### Subtask list
 
@@ -136,7 +136,7 @@ This task is only open to users who have activated RW products. Users who have n
 
 3. The task status will be displayed in the upper left corner of the task. On average, each export task takes 15~20min. If the status is displayed as successful, you can view it normally in RW and use the corresponding scene for robot simulation training tasks.   
 
-![Output Task](/images/output_task.png)
+![Output Task](images/output_task.png)
 
 # Common problem
 
@@ -150,13 +150,13 @@ Q: When the page is refreshed, it prompts that the permissions are insufficient?
 
 A: The login is invalid and you need to log in again.
 
-![Login Failure](/images/login_failure.png)
+![Login Failure](images/login_failure.png)
 
 Q: When logging in to the system, I did not enter the login page, but directly entered a form filling page?
 
 A: This is a reminder page for customers who are not logged in or who have not purchased EUS and directly access other pages of the system (such as the task list) through the URL to help potential customers send emails to establish contact with sales. For customers who have purchased, please visit the system homepage, or log in to the Kujiale website first, and then visit the system homepage.
 
-![Contact Us](/images/contact_us.png)
+![Contact Us](images/contact_us.png)
 
 Q: How to buy more scenes?
 
@@ -168,7 +168,7 @@ Q: What should I do if the task data expires?
 
 A: Tasks with expired data support one-click restart tasks and generate data again. Please download the data in time. 
 
-![Data Out of Date](/images/data_out_of_date.png)
+![Data Out of Date](images/data_out_of_date.png)
 
 Q: How long does it take to run a task?
 

@@ -8,7 +8,7 @@ EUS (Environment Understanding Solution) is a scene cognitive training data set 
 This chapter mainly introduces basic configurations such as how to log in to an account, select scenes, and create simulation tasks.
 
 ## System login entrance
-- Login URL：https://www.kujiale.com/coohomcloud/minervas#/scene
+- Login URL：[https://www.kujiale.com/coohomcloud/minervas#/scene](https://www.kujiale.com/coohomcloud/minervas#/scene)
 
 - Login account： Same as the Kujiale account, if it is a trial account, it will be allocated by the business separately
 
@@ -16,7 +16,7 @@ This chapter mainly introduces basic configurations such as how to log in to an 
 
 Tips： It is recommended to use Google Chrome to log in
 
-	☞Google Chrome download addresshttps://www.google.cn/chrome/
+	☞Google Chrome download address https://www.google.cn/chrome/
 ## Account login
 
  Click the account login on the system page, enter the account and password, and click login to log in to the home page of the EUS system.
@@ -70,13 +70,13 @@ After checking the scene that meets the requirements, you can create a simulatio
 
 The essence of DSL writing is that the user customizes one or more subclasses in the python file. The subclasses: three subclasses inherited from the Processor class inside Ks-SDK, borrowing the interface provided by the SDK and inherited attributes, in the process() function Realize custom functions in, such as:
 
-l Scene modification: users modify the content of the scene (furniture, lighting, etc.), modify camera information (including ordinary cameras and track cameras)
+- Scene modification: users modify the content of the scene (furniture, lighting, etc.), modify camera information (including ordinary cameras and track cameras)
 
-l Rasterize data generation: based on the scene and camera, use the FF engine to generate instance, normal, and depth maps
+- Rasterize data generation: based on the scene and camera, use the FF engine to generate instance, normal, and depth maps
 
-l Render data generation: based on the scene and camera, use the Vray engine to generate rgb images
+- Render data generation: based on the scene and camera, use the Vray engine to generate rgb images
 
-l Information extraction (Structure): extract scene or camera information to an output json file
+- Information extraction (Structure): extract scene or camera information to an output json file
 
 About DSL-Detailed description, please refer to [DSL Description Document](https://coohom.github.io/cloud-docs/)
 

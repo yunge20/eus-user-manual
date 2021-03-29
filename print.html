@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="sidebar-visible no-js rust">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -52,7 +52,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -78,7 +78,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('light')
+            html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -116,8 +116,8 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
@@ -186,12 +186,12 @@
 </code></pre>
 <h2><a class="header" href="#account-login" id="account-login">Account login</a></h2>
 <p>Click the account login on the system page, enter the account and password, and click login to log in to the home page of the EUS system.</p>
-<p><img src="./images/user_login.png" alt="User Login" /></p>
+<p><img src="images/user_login.png" alt="User Login" /></p>
 <h2><a class="header" href="#change-passworod" id="change-passworod">Change Passworod</a></h2>
 <p>To change the password, you need to enter the Kujiale homepage（https://www.kujiale.com/）, And then click the person’s avatar in the upper right corner of the system page, click Account Settings in the personal information pop-up window, click Account Security in the account settings page, and then click [Modify Password] in the Security Information Module. In the Modify Password pop-up window, enter the original password And the new password, the new password format requirements: ①The length is 8-16 characters; ②Cannot use spaces; ③Contain at least two combinations of numbers/letters/characters; ④Cannot contain illegal characters.。</p>
-<p><img src="./images/user_center.png" alt="User Center" />
-<img src="./images/security_information.png" alt="Security Information" />
-<img src="./images/password_change.png" alt="Password Change" /></p>
+<p><img src="images/user_center.png" alt="User Center" />
+<img src="images/security_information.png" alt="Security Information" />
+<img src="images/password_change.png" alt="Password Change" /></p>
 <h2><a class="header" href="#scene-management" id="scene-management">Scene management</a></h2>
 <p>After successful login, you will enter the EUS homepage-Scene Management.</p>
 <ol>
@@ -211,7 +211,7 @@
 <p>Check the eligible scenes, or click Export to import the scenes to RW (RoboWizard product needs to be activated first. If it is not activated, the export button will be hidden and invisible. The full name of RW product is based on cloud native robot cloud development and simulation solution. Program, detailed introduction can be obtained by contacting the business)</p>
 </li>
 </ol>
-<p><img src="./images/manage_scene.png" alt="Manage Scene" /></p>
+<p><img src="images/manage_scene.png" alt="Manage Scene" /></p>
 <h2><a class="header" href="#create-simulation-task" id="create-simulation-task">Create simulation task</a></h2>
 <p>After checking the scene that meets the requirements, you can create a simulation task and enter the simulation task setting pop-up window.</p>
 <ol>
@@ -234,8 +234,8 @@
 <p>After completing the configuration, click OK to create a task, and automatically jump to task management.</p>
 </li>
 </ol>
-<p><img src="./images/create_task.png" alt="Create Task" />
-<img src="./images/dsl_upload.png" alt="DSL Upload" /></p>
+<p><img src="images/create_task.png" alt="Create Task" />
+<img src="images/dsl_upload.png" alt="DSL Upload" /></p>
 <h2><a class="header" href="#dsl-description" id="dsl-description">DSL description</a></h2>
 <p>The essence of DSL writing is that the user customizes one or more subclasses in the python file. The subclasses: three subclasses inherited from the Processor class inside Ks-SDK, borrowing the interface provided by the SDK and inherited attributes, in the process() function Realize custom functions in, such as:</p>
 <p>l Scene modification: users modify the content of the scene (furniture, lighting, etc.), modify camera information (including ordinary cameras and track cameras)</p>
@@ -267,7 +267,7 @@
 <p>After the task is successful, the result data will be stored in the cloud for 14 days and needs to be downloaded in time</p>
 </li>
 </ol>
-<p><img src="./images/render_task.png" alt="Render Task" /></p>
+<p><img src="images/render_task.png" alt="Render Task" /></p>
 <h3><a class="header" href="#subtask-list" id="subtask-list">Subtask list</a></h3>
 <p>The subtask list can display the details of each subtask. Currently, one scene corresponds to one subtask;</p>
 <ol>
@@ -303,21 +303,21 @@
 <p>The task status will be displayed in the upper left corner of the task. On average, each export task takes 15~20min. If the status is displayed as successful, you can view it normally in RW and use the corresponding scene for robot simulation training tasks.</p>
 </li>
 </ol>
-<p><img src="/images/output_task.png" alt="Output Task" /></p>
+<p><img src="images/output_task.png" alt="Output Task" /></p>
 <h1><a class="header" href="#common-problem" id="common-problem">Common problem</a></h1>
 <p>Q: Is the scene list empty?</p>
 <p>A: If you have purchased the scene, please contact the customer to confirm whether it is faulty. If you have not purchased the scene, please contact the sales to purchase it.</p>
 <p>Q: When the page is refreshed, it prompts that the permissions are insufficient?</p>
 <p>A: The login is invalid and you need to log in again.</p>
-<p><img src="/images/login_failure.png" alt="Login Failure" /></p>
+<p><img src="images/login_failure.png" alt="Login Failure" /></p>
 <p>Q: When logging in to the system, I did not enter the login page, but directly entered a form filling page?</p>
 <p>A: This is a reminder page for customers who are not logged in or who have not purchased EUS and directly access other pages of the system (such as the task list) through the URL to help potential customers send emails to establish contact with sales. For customers who have purchased, please visit the system homepage, or log in to the Kujiale website first, and then visit the system homepage.</p>
-<p><img src="/images/contact_us.png" alt="Contact Us" /></p>
+<p><img src="images/contact_us.png" alt="Contact Us" /></p>
 <p>Q: How to buy more scenes?</p>
 <p>A: Currently, online purchase is not supported, please contact the sales directly to purchase more scenarios</p>
 <p>Q: What should I do if the task data expires?</p>
 <p>A: Tasks with expired data support one-click restart tasks and generate data again. Please download the data in time. </p>
-<p><img src="/images/data_out_of_date.png" alt="Data Out of Date" /></p>
+<p><img src="images/data_out_of_date.png" alt="Data Out of Date" /></p>
 <p>Q: How long does it take to run a task?</p>
 <p>A: It is mainly related to two factors. One is whether it is during the day or at night. During the day, the cluster has an upper limit of concurrent tasks, and it is easy to encounter queues. There are fewer queues at night. The second is the settings of the task itself, such as the number of scenes included, and the scenes. The size, specific task parameters, etc. are related. Trajectory tasks usually take a long time. A scene needs to wait 3 to 6 hours on average. If there are multiple scenes, the waiting time is even more uncertain. Cross-day tasks will be limited due to peak hours during the day Frequent queuing during the day, which consumes much more time than a task that can be run at night. Since the task data retention period is 2 weeks, it is not recommended that a single task exceeds 200 scenarios.</p>
 <p>Q: How is the machine time calculated? Why is it sometimes far greater than the task waiting time, and sometimes it is less than the task waiting time?</p>

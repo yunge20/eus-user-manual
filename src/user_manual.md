@@ -74,7 +74,7 @@ The essence of DSL writing is that the user customizes one or more subclasses in
 
 - Rasterize data generation: based on the scene and camera, use the FF engine to generate instance, normal, and depth maps
 
-- Render data generation: based on the scene and camera, use the Vray engine to generate rgb images
+- Render data generation: based on the scene and camera, use the path tracer renderer to generate rgb images
 
 - Information extraction (Structure): extract scene or camera information to an output json file
 
@@ -116,7 +116,7 @@ The subtask list can display the details of each subtask. Currently, one scene c
 
 Glossary:
 
-Rendering task: Based on the scene and camera, use the Vray engine to generate RGB images
+Rendering task: Based on the scene and camera, use the path tracer renderer to generate RGB images
 
 Auxiliary image tasks: based on the scene and camera, generate depth maps, semantic maps, instance maps, normal maps, etc.
 

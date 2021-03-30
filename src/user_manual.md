@@ -74,7 +74,7 @@ The essence of DSL writing is that the user customizes one or more subclasses in
 
 - Rasterize data generation: based on the scene and camera, use the FF engine to generate instance, normal, and depth maps
 
-- Render data generation: based on the scene and camera, use photo-realistic renderer to generate rgb images
+- Render data generation: based on the scene and camera, use the photo-realistic renderer to generate rgb images
 
 - Information extraction (Structure): extract scene or camera information to an output json file
 
